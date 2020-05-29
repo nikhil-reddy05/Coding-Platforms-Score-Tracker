@@ -87,7 +87,7 @@ class DataViewController: NSViewController{
 //
 //                            """)
                         DispatchQueue.main.async {
-                            self.interviewbitLabel.stringValue = String(describing: results.rank)
+                            self.interviewbitLabel.stringValue = String(describing: results.score)
                         }
                         let streak = results.streak + " streak"
                         DispatchQueue.main.async {
@@ -98,7 +98,7 @@ class DataViewController: NSViewController{
                                             switch results {
                                             case .success(let results):
                                                 DispatchQueue.main.async {
-                                                    self.interviewbitLabel.stringValue = String(describing: results.rank)
+                                                    self.interviewbitLabel.stringValue = String(describing: results.score)
                                                 }
                                                 let streak = results.streak + " streak"
                                                 DispatchQueue.main.async {
