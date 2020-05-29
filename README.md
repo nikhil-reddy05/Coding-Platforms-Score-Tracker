@@ -16,4 +16,4 @@ Fork the project and clone it on your desktop to start using and make necessary 
 * Give the application name you would like to have and ```Export```. Make sure that the folder you are exporting to is ```Applications```
 
 
-Now your application is ready to use. Ckeck it in the ```Application``` folder. You can also change the icon of the application, the icon image is present in the project folder.
+Now your application is ready to use. Ckeck it in the ```Application``` folder. 
