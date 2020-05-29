@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56F9E731247D90AB0060AFC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F9E730247D90AB0060AFC7 /* AppDelegate.swift */; };
+		56F9E735247D90B40060AFC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F9E734247D90B40060AFC7 /* Assets.xcassets */; };
+		56F9E738247D90B40060AFC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F9E736247D90B40060AFC7 /* Main.storyboard */; };
+		56F9E741247D916A0060AFC7 /* dataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F9E740247D91690060AFC7 /* dataRequest.swift */; };
+		56F9E743247D917E0060AFC7 /* dataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F9E742247D917E0060AFC7 /* dataResponse.swift */; };
+		56F9E745247D92E80060AFC7 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F9E744247D92E80060AFC7 /* DataViewController.swift */; };
+		56F9E749247D958C0060AFC7 /* StatusItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F9E748247D958B0060AFC7 /* StatusItemManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56F9E72D247D90AB0060AFC7 /* smart-interviews-score-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smart-interviews-score-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F9E730247D90AB0060AFC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56F9E734247D90B40060AFC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56F9E737247D90B40060AFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56F9E739247D90B40060AFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F9E73A247D90B40060AFC7 /* smart_interviews_score_tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = smart_interviews_score_tracker.entitlements; sourceTree = "<group>"; };
+		56F9E740247D91690060AFC7 /* dataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataRequest.swift; sourceTree = "<group>"; };
+		56F9E742247D917E0060AFC7 /* dataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataResponse.swift; sourceTree = "<group>"; };
+		56F9E744247D92E80060AFC7 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		56F9E748247D958B0060AFC7 /* StatusItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56F9E72A247D90AB0060AFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56F9E724247D90AB0060AFC7 = {
+			isa = PBXGroup;
+			children = (
+				56F9E72F247D90AB0060AFC7 /* smart-interviews-score-tracker */,
+				56F9E72E247D90AB0060AFC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56F9E72E247D90AB0060AFC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56F9E72D247D90AB0060AFC7 /* smart-interviews-score-tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56F9E72F247D90AB0060AFC7 /* smart-interviews-score-tracker */ = {
+			isa = PBXGroup;
+			children = (
+				56F9E730247D90AB0060AFC7 /* AppDelegate.swift */,
+				56F9E744247D92E80060AFC7 /* DataViewController.swift */,
+				56F9E748247D958B0060AFC7 /* StatusItemManager.swift */,
+				56F9E740247D91690060AFC7 /* dataRequest.swift */,
+				56F9E742247D917E0060AFC7 /* dataResponse.swift */,
+				56F9E734247D90B40060AFC7 /* Assets.xcassets */,
+				56F9E736247D90B40060AFC7 /* Main.storyboard */,
+				56F9E739247D90B40060AFC7 /* Info.plist */,
+				56F9E73A247D90B40060AFC7 /* smart_interviews_score_tracker.entitlements */,
+			);
+			path = "smart-interviews-score-tracker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56F9E72C247D90AB0060AFC7 /* smart-interviews-score-tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F9E73D247D90B40060AFC7 /* Build configuration list for PBXNativeTarget "smart-interviews-score-tracker" */;
+			buildPhases = (
+				56F9E729247D90AB0060AFC7 /* Sources */,
+				56F9E72A247D90AB0060AFC7 /* Frameworks */,
+				56F9E72B247D90AB0060AFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "smart-interviews-score-tracker";
+			productName = "smart-interviews-score-tracker";
+			productReference = 56F9E72D247D90AB0060AFC7 /* smart-interviews-score-tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56F9E725247D90AB0060AFC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Nikhil Reddy";
+				TargetAttributes = {
+					56F9E72C247D90AB0060AFC7 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 56F9E728247D90AB0060AFC7 /* Build configuration list for PBXProject "smart-interviews-score-tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56F9E724247D90AB0060AFC7;
+			productRefGroup = 56F9E72E247D90AB0060AFC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56F9E72C247D90AB0060AFC7 /* smart-interviews-score-tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56F9E72B247D90AB0060AFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F9E735247D90B40060AFC7 /* Assets.xcassets in Resources */,
+				56F9E738247D90B40060AFC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56F9E729247D90AB0060AFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F9E749247D958C0060AFC7 /* StatusItemManager.swift in Sources */,
+				56F9E745247D92E80060AFC7 /* DataViewController.swift in Sources */,
+				56F9E731247D90AB0060AFC7 /* AppDelegate.swift in Sources */,
+				56F9E743247D917E0060AFC7 /* dataResponse.swift in Sources */,
+				56F9E741247D916A0060AFC7 /* dataRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56F9E736247D90B40060AFC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56F9E737247D90B40060AFC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56F9E73B247D90B40060AFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56F9E73C247D90B40060AFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		56F9E73E247D90B40060AFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "smart-interviews-score-tracker/smart_interviews_score_tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QA2ZJMF4Y9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "smart-interviews-score-tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nikhil-reddy.smart-interviews-score-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		56F9E73F247D90B40060AFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "smart-interviews-score-tracker/smart_interviews_score_tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QA2ZJMF4Y9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "smart-interviews-score-tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nikhil-reddy.smart-interviews-score-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56F9E728247D90AB0060AFC7 /* Build configuration list for PBXProject "smart-interviews-score-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F9E73B247D90B40060AFC7 /* Debug */,
+				56F9E73C247D90B40060AFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F9E73D247D90B40060AFC7 /* Build configuration list for PBXNativeTarget "smart-interviews-score-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F9E73E247D90B40060AFC7 /* Debug */,
+				56F9E73F247D90B40060AFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56F9E725247D90AB0060AFC7 /* Project object */;
+}
