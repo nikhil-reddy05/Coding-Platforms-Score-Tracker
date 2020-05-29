@@ -12,7 +12,7 @@ Fork the project and clone it on your desktop to start using and make necessary 
 * Save your changes.
 
 ## Installation Process
-* ```Product > Archives``` then click on ```Distribute App``` now select ```Copy App``` and ```Next```
+* ```Product > Archive``` then click on ```Distribute App``` now select ```Copy App``` and ```Next```
 * Give the application name you would like to have and ```Export```. Make sure that the folder you are exporting to is ```Applications```
 
 
