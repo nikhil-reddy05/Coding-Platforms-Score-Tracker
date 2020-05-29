@@ -11,10 +11,10 @@ class DataViewController: NSViewController{
     @IBOutlet var interviewbitStreakLabel: NSTextField!
     
     // SET your usernames here.
-    var codeForcesUserName: String = "abhijeet_ar"
-    var codeChefUserName: String = "abhijeet_ar"
-    var spojUserName: String = "abhijeet_ar"
-    var interviewBitUserName: String = "abhijeet_ar"
+    var codeForcesUserName: String = "username"
+    var codeChefUserName: String = "username"
+    var spojUserName: String = "username"
+    var interviewBitUserName: String = "username"
 
     override func viewDidLoad() {
         super.viewDidLoad()
